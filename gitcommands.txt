@@ -1,0 +1,41 @@
+command to cretae a centrel repo
+git init project(Repo Name)
+
+To create a repo without working tree
+git init --bare --shared=true project
+
+command to download or clone as local repo
+
+git clone sample.git
+
+To commit| modify the repository usng username
+
+git config --global user.name 'ysername'
+git config --global user.name username@FQDN
+
+Command to commit
+
+git commit -m "xxxxxx"
+
+To clone the centrel repository to local
+
+git clone ssh://servername/nameofthe repo
+
+git clone ssh://3.17.140.161 project
+
+
+command to push the files added in local repo to centrel repo
+
+git config --global push.default name of the repo
+git push
+
+Fetch from central repo to local repo 
+
+git fetch
+
+hg commit –m “xxxxx”
+
+hg review –u ‘vinay’ –c
+
+
+https://guides.github.com/activities/hello-world/#repository
